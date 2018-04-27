@@ -1,0 +1,22 @@
+{
+  "name": "csv2geojson",
+  "version": "1.0.0",
+  "description": "This application converts one or more csv files to geojson files",
+  "main": "csv2json.js",
+  "dependencies": {
+    "csv-validator": "0.0.3",
+    "fs-exists-sync": "^0.1.0",
+    "geojson": "^0.5.0",
+    "papaparse": "^4.4.0",
+    "rxjs": "^5.5.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js --reporter spec"
+  },
+  "author": "Ye Song",
+  "license": "ISC"
+}
